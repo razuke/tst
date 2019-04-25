@@ -31,7 +31,7 @@ public class AppTest {
 	public void validateStatusCode() {
 			defaultGetRequest()
 			.then()
-			.statusCode(202);
+			.statusCode(200);
 	}
 	
 	@Test
